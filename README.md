@@ -8,6 +8,7 @@ sudo apt install imx500-models
 
 ## Demos
 
+
 [Picamera2](https://github.com/raspberrypi/picamera2) demo/example scripts running these models are listed below:
 
 | Model                              | Task                  | Input Size | Picamera2 example script                                                                                               |
