@@ -43,22 +43,22 @@ These models can be useful for quick deployment if you are interested in the cat
 
 | Model                   | [Top 1] Accuracy - Quantized(Float)   | Input Resolution | Picamera2 Example Script                                                                                               |
 |-------------------------|---------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------|
-| EfficientNet-B0         | **72.128​** (73.876)                   | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_efficientnet_bo.rpk                      |
-| EfficientNet Lite-0     | **75.252** (75.28)                    | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_efficientnet_lite0.rpk                   |
-| EfficientNetV2-B0       | **76.674​** (76.424)                   | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_efficientnetv2_b0.rpk                    |
-| EfficientNetV2-B1       | **77.032​** (76.93)                    | 240x240          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_efficientnetv2_b1.rpk                    |
-| EfficientNetV2-B2       | **77.716** (77.94)                    | 260x260          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_efficientnetv2_b2.rpk                    |
-| LeViT-128S              | **76.526** (62.29​)                    | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_levit_128s.rpk                           |
-| MnasNet1.0              | **73.16​** (73.078)                    | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_mnasnet1.0.rpk                           |
-| MobileNetV2             | **71.572​​** (71.3)                     | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_mobilenet_v2.rpk                         |
-| MobileViT-XS            | **72.326​** (72.412)                   | 256x256          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_mobilevit_xs.rpk                         |
-| MobileViT-XXS           | **67.44​0** (67.40)                    | 256x256          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_mobilevit_xxs.rpk                        |
-| RegNetX-002             | **68.352​** (68.20)                    | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_regnetx_002.rpk                          |
-| RegNetY-002             | **69.424​** (69.60)                    | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_regnety_002.rpk                          |
-| RegNetY-004             | **73.83​0** (73.37)                    | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_regnety_004.rpk                          |
-| ResNet-18               | **68.57​** (68.546)                    | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_resnet18.rpk                             |
-| ShuffleNetV2-x1.5       | **72.194​** (72.498)                   | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_shufflenet_v2_x1_5.rpk                   |
-| SqueezeNet-V1.0         | **57.598** (57.584)                   | 224x224          | imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_squeezenet1.0.rpk                        |  
+| EfficientNet-B0         | **72.128​** (73.876)                   | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_efficientnet_bo.rpk                      |
+| EfficientNet Lite-0     | **75.252** (75.28)                    | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_efficientnet_lite0.rpk                   |
+| EfficientNetV2-B0       | **76.674​** (76.424)                   | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_efficientnetv2_b0.rpk                    |
+| EfficientNetV2-B1       | **77.032​** (76.93)                    | 240x240          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_efficientnetv2_b1.rpk                    |
+| EfficientNetV2-B2       | **77.716** (77.94)                    | 260x260          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_efficientnetv2_b2.rpk                    |
+| LeViT-128S              | **76.526** (62.29​)                    | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_levit_128s.rpk                           |
+| MnasNet1.0              | **73.16​** (73.078)                    | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_mnasnet1.0.rpk                           |
+| MobileNetV2             | **71.572​​** (71.3)                     | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_mobilenet_v2.rpk                         |
+| MobileViT-XS            | **72.326​** (72.412)                   | 256x256          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_mobilevit_xs.rpk                         |
+| MobileViT-XXS           | **67.44​0** (67.40)                    | 256x256          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_mobilevit_xxs.rpk                        |
+| RegNetX-002             | **68.352​** (68.20)                    | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_regnetx_002.rpk                          |
+| RegNetY-002             | **69.424​** (69.60)                    | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_regnety_002.rpk                          |
+| RegNetY-004             | **73.83​0** (73.37)                    | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_regnety_004.rpk                          |
+| ResNet-18               | **68.57​** (68.546)                    | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_resnet18.rpk                             |
+| ShuffleNetV2-x1.5       | **72.194​** (72.498)                   | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_shufflenet_v2_x1_5.rpk                   |
+| SqueezeNet-V1.0         | **57.598** (57.584)                   | 224x224          | python imx500_classification_demo.py --model /usr/share/imx500-models/imx500_network_squeezenet1.0.rpk                        |  
 
 ### Object Detection
 - **Task:** Identify and locate multiple objects within an image by classifying each object.
