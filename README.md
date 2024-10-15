@@ -86,7 +86,7 @@ _*pp = post-processing is included in the network and is executed on the IMX500 
 
 | Model           | [mAP] Accuracy - Quantized(Float)    | Input Resolution | Picamera2 Example Script                                                                                               |
 |-----------------|--------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------|
-| HigherHRNet     | **0.188​** (0.1867)                   | 228x640          | `python imx500_pose_estimation_higherhrnet_demo.py --model /usr/share/imx500-models/imx500_network_higherhrnet_coco.rpk`        |
+| HigherHRNet     | **0.188​** (0.1867)                   | 288x384          | `python imx500_pose_estimation_higherhrnet_demo.py --model /usr/share/imx500-models/imx500_network_higherhrnet_coco.rpk`        |
 
 ## Licenses
 
